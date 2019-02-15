@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+     font-family: "Montserrat", sans-serif 
+}
+ .w3-row-padding img {
+     margin-bottom: 12px 
+}
+/* Set the width of the sidebar to 120px */
+ .w3-sidebar {
+     width: 120px;
+     background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+ #main {
+     margin-left: 120px 
+}
+/* Remove margins from "page content" on small screens */
+ @media only screen and (max-width: 600px) {
+     #main {
+         margin-left: 0 
+    }
+}
+
+.w3-black{
+    background: #1C1C1C !important;
+}
+
+.my-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.set-pad{
+    padding-bottom: 3em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.my-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.my-cont.space-around{
+    justify-content: space-around;
+}
+
+.text-light-grey{
+    color: #d3d3d3;
+}
+
+.text-light-grey:hover{
+    color: blue !important;
+}
+
+.margin-top{
+    margin-top: 2em;
+}
+
+.center-bold{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.margin-bottom{
+    margin-bottom: 2em;
+}
